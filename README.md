@@ -1,53 +1,150 @@
 # Amit Pandey — Developer Portfolio
 
-A responsive, clean-minimal portfolio built with React, Vite, Tailwind CSS v4, Motion, and Lucide icons.
+A personal developer portfolio showcasing my skills, projects, internship experience, and journey as an MCA student.
 
-## Requirements
-- Node.js LTS (npm is included)
+Built using **React, Vite, Tailwind CSS, Motion, and Lucide Icons**.
+
+## 🌐 Live Portfolio
+
+Coming soon — deployment in progress.
+
+## ✨ Features
+
+- Clean and responsive design
+- Introduction and About section
+- Professional internship experience
+- Selected project showcase
+- Skills and technologies
+- Contact section
+- Resume download
+- Mobile-friendly navigation
+- Smooth animations and transitions
+
+## 🛠️ Technologies Used
+
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- Motion
+- Lucide Icons
+- HTML and CSS
+
+## 📂 Featured Projects
+
+### 1. Sales & Revenue Analysis Dashboard
+An interactive Power BI dashboard to explore sales performance, revenue trends, and product-level insights.
+
+**Tools:** Power BI, Excel, Data Visualization
+
+### 2. Customer Segmentation
+A customer analysis project exploring customer groups and patterns to support business decision-making.
+
+**Tools:** Python, Pandas, Scikit-learn
+
+[View on GitHub](https://github.com/amitpandey333/Customer-Segmentation-Project)
+
+### 3. Historical Sales Forecasting
+A predictive analytics workflow involving historical sales data preparation and comparison of predicted results with actual values.
+
+**Tools:** Python, Pandas, Data Cleaning
+
+### 4. CivicEase AI
+A hackathon prototype designed to simplify government notices, application checklists, and civic complaint workflows.
+
+**Tools:** React, AI Concept, User Experience
+
+## 💼 Internship Experience
+
+**Data Analytics Intern — Thiranex EduTech LLP**
+
+14 July 2026 – 13 August 2026
+
+Completed four practical projects involving:
+
+- Sales & Revenue Analysis Dashboard
+- Customer Segmentation
+- Predictive Analytics Using Historical Data
+- Data Cleaning & Reporting Automation
+
+**Tools used:** Power BI, Excel, Python, Pandas, Scikit-learn.
+
+## 💻 Run Locally
+
+### Prerequisites
+
+- Node.js
+- npm
 - VS Code
-- A browser
 
-## Run locally on Windows
+### Installation
 
-Open this folder in VS Code. In **Terminal → New Terminal**, run:
+Clone the repository:
+
+```bash
+git clone https://github.com/amitpandey333/amit-portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd amit-portfolio
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-Open the local URL printed in the terminal (usually `http://localhost:5173`).
+Open the local URL shown in your terminal, usually:
 
-## Create a production build
+```text
+http://localhost:5173/
+```
+
+## 🏗️ Production Build
+
+To create a production-ready build:
 
 ```bash
 npm run build
+```
+
+To preview the production build:
+
+```bash
 npm run preview
 ```
 
-Vite writes the deployable website to `dist/`.
+The production files are generated inside the `dist` directory.
 
-## Deploy on Vercel
+## 🚀 Deployment
 
-1. Create a GitHub repository and upload/push this project.
-2. Sign in at https://vercel.com/ and import the repository.
-3. Vercel should detect Vite automatically. Confirm:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-4. Click **Deploy**. Vercel gives you a public URL.
-5. When you push later changes to the connected GitHub branch, Vercel redeploys them.
+This project can be deployed using Vercel.
 
-## Personalize before publishing
+1. Push the project to GitHub.
+2. Sign in to [Vercel](https://vercel.com/).
+3. Import the GitHub repository.
+4. Select Vite as the framework.
+5. Set the build command to `npm run build`.
+6. Set the output directory to `dist`.
+7. Click Deploy.
 
-Search in `src/App.jsx` for:
-- `your-email@example.com` and replace it with your real contact email.
-- Project titles, descriptions, tags, and links. Keep only work you can explain in an interview.
-- Social links if your profiles change.
-- Skills list. Only list technologies you can discuss confidently.
+## 📬 Contact
 
-The current hero artwork is made with CSS shapes and initials, so no image asset is required.
+**Amit Pandey**
 
-## Important notes
-- The contact button opens the visitor's email application using `mailto:`. It does not send a message through a website backend.
-- The projects use example descriptions and links based on portfolio project concepts; verify each link and update descriptions to match the finished project.
-- Do not put API keys or passwords in frontend source files.
+- GitHub: [amitpandey333](https://github.com/amitpandey333)
+- LinkedIn: [Amit Pandey](https://www.linkedin.com/in/amit-pandey-4b158b2a/)
+- Email: [amit300w@gmail.com](mailto:amit300w@gmail.com)
+
+---
+
+*Designed with intention. Built to keep learning.*
